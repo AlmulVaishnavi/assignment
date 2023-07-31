@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Single page assignment coursera</title>
+    <link rel="stylesheet" href="./my_style.css"/>
+</head>
+<body>
+   <nav>
+      <div id="Home">
+        <div class="MyProfile_name">
+          Almul Vaishnavi
+          <div class="My_contactinfo">
+            <img src="images.png\envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          almulvaishnavi@htm.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="My_contactinfo">
+          <img src="images.png\phone.png" alt="https://www.freeiconspng.com/img/3623"/>
+          +91 9988334455
+
+        </div>
+        </div>
+        <div class="div">
+          <a class="menu" href="#About_me">About Me</a>
+          <a class="menu" href="#Skills">Skills</a>
+          <a class="menu" href="#Projects">Projects</a>
+          <a class="menu" href="#Recommendations">Recommendations</a>
+          
+
+        </div>
+    </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="About_me" class="box">
+      <div>
+        <img src="images.png/about me.jpg" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi there! I am Almul Vaishnavi. Nice to meet you<img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px"/>
+          </h1>
+          <p>
+             I am pursuing my bachelor's in cse 
+             I am practicing web development for 2 months now.
+             Doing hardwork on it.
+             I am eager to learn more about new things.
+        </p>
+      </div>
+    </section>
+    
+    <!-- Skills -->
+    <section id="Skills">
+      <h2>Skills:</h2>
+      <div style="clear:both;"></div>
+      
+      <div class="my_skills">
+          <div class="skills">
+          <img src="images.png/html5.png"/>
+          <h6>HTML</h6>
+          <p>Experience:2 months </p>
+        </div>  
+
+        <div class="skills">
+          <img src="images.png/js.jpeg"/>
+          <h6>JAVASCRIPT</h6>
+          <p>Experience:2 months</p>
+        </div>  
+        
+        
+        <div class="skills">
+          <img src="images.png/java.png"/>
+          <h6>JAVA</h6>
+          <p>Experience:2 months</p>
+        </div>  
+
+        
+        
+        <!-- Add more skills here -->
+
+        
+    </div>
+</section>
+
+<!-- Projects -->
+<section class="My_projects" id="Projects">
+    <h2>
+        Projects done by me.....!
+    </h2>
+    <div style="clear:both;"></div>
+    
+        <div id="Myproject" class="project_box">
+            <div class="project">
+            <h3>AI jarvis for desktop</h3>
+            <ul>
+                <li>Developed avirtual assistant for desktop use.
+            
+        </div>
+          <hr>
+          <div class="project">
+            <h3>Simple Interest Calculator</h3>
+            <ul>
+                <li>Developed a simple interest calclator.</li>
+            
+        </div>
+        
+    </div>
+</section>
+<div style="clear:both;"></div>
+
+<!-- Recommendations -->
+<section id="Recommendation">
+    <h2>Recommendations</h2>
+    <div style="clear:both;"></div>
+    <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+            <span>&#8220;</span>
+            Almul Vaishnavi is a good learner and is hardworking.Good in behavior as weel as in work.
+            <span>&#8221;</span>
+        </div>
+        
+    </div>
+</section>
+
+<!-- Recommendation Form -->
+<section id="contact">
+    <div class="center">
+        <fieldset>
+            <legend class="Introduction">Leave a Recommendation</legend>          
+            <input type="text" placeholder="Name"> <br/>
+            <textarea id="new_recommendation" cols="600" rows="25" placeholder="Message"></textarea>
+            <div class="center">
+                <button id="recommend_Button" onclick="AddYourRecommendation()">Submit</button>
+            </div>
+        </fieldset>
+    </div>
+    </section>
+    
+    <div class="iconbutton">
+        <a href="#home">
+          <!--Add the code here for the logo to appear and the icon to be actionable-->
+         
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </a>
+    </div>
+    
+    <div class="Popup" id="popup" class="center">
+        <img src="https://www.svgrepo.com/svg/326560/checkmark-outline"/>
+        <h3>Thanks for leaving a recommendation !</h3>
+        <button >Ok</button>
+    </div>
+    <script src="./my_script.js"></script>
+</body>
+</html>
